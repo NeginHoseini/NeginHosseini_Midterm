@@ -1,0 +1,324 @@
+.item a:hover{
+    background-color: #706d6d;
+}
+
+.icons{
+    padding: 1%;
+    border-radius: 100%;
+}
+
+#instagram:hover {
+    border:#e44885 5px solid
+}
+#twitter:first-child:hover {
+    border:#46d4fe 5px solid
+}
+#dribble:last-child:hover {
+    border:#a67658 5px solid
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+h1{
+    padding: 10%;
+    font-size: 4em;
+    font-family: 'Times New Roman';
+}
+
+.HMainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1%;
+}
+
+.HMainFlex img{
+    margin-bottom: 5%;
+    display: none;
+}
+
+
+.HCol{
+    width: 17%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+footer h4{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: #696666;
+}
+
+
+footer h6,
+footer a{
+    font-weight: lighter;
+    color: #9b9a9a;
+}
+footer a{
+    font-size: small;
+}
+
+
+
+#email {
+    height: 5vh;
+    width: 17%;
+    color: #222;
+    border-color: #222;
+    border-width: 2px;
+}
+
+footer .button {
+    height: 5vh;
+    width: 7%;
+    border: 2px solid;
+}
+
+footer .button:hover{
+    background: #3a3838;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+footer img{
+    margin: 0 1%;
+}
+
+.hoverText {
+    position: relative;
+
+}
+
+.hoverText:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: -50%;
+    bottom: 200%;
+}
+
+.hoverText:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    color: #9b9a9a;
+    line-height: 1.5;
+}
+
+strong{
+    color: black;
+}
+
+.wrapper h2{
+    color: black;
+}
+
+.wrapper .one-one{
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 3%;
+}
+
+
+.wrapper .one-two{
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 3%;
+}
+
+.wrapper .two-one{
+    grid-column: 1;
+    grid-row:2;
+}
+
+.wrapper .two-two{
+    margin-top: 10%;
+    grid-column: 2;
+    grid-row:2;
+    color: black;
+}
+
+.container{
+    padding:0;
+    height: 2%;
+    background-color: #dedbdb;
+    position: relative;
+}
+
+.progress-bar{
+    position: absolute;
+    height: 100%;
+    background-color: black;
+}
+
+.BMainFlex{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1%;
+}
+
+
+.BCol{
+    width: 22%;
+}
+
+time{
+    font-size:small;
+}
+
+.gallery {
+    margin-bottom: 2%;
+    height: 50%;
+    line-height: 1.5;
+    background-color: #f3f1f1;
+    color: #a29f9f;
+    overflow: auto;
+}
+
+.gallery h3{
+    color: black;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.desc {
+    padding: 5%;
+}
+
+.CWrapper{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    color: #9b9a9a;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.COne{
+    grid-column: 1;
+}
+
+.CTwo{
+    grid-column: 2;
+}
+
+.formName{
+    width: 48%;
+    height: 5vh;
+    background-color: #f8f8f8;
+    border-color: #e1e1e1;
+}
+
+.formMsg{
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    border-color: #e1e1e1;
+
+}
+
+.CButton{
+    width: 20%;
+    height: 20%;
+    color: white;
+    background-color: black;
+}
+
+.CButton:hover{
+    background-color: #bb7777;
+}
+
+.carousel .year{
+    font-family: "Times New Roman";
+    font-size: 1.5rem;
+    height: 100%;
+    padding: 5%;
+    color: #b2afaf;
+    border: #00000026 1px solid;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.carousel .car{
+    /*height: 50%;*/
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel .owl-prev{
+    left: -30px;
+}
+.carousel .owl-next{
+    right: -30px;
+}
+
+.carousel .owl-prev, .carousel .owl-next{
+    position: absolute;
+    top: 90px;
+}
+.carousel .owl-prev span , .carousel .owl-next span{
+    font-size: 80px;
+    color: black;
+}
+
+.carousel .owl-theme, .carousel .owl-nav[class*="owl-"]:hover{
+    background: transparent;
+}
+
+
+
+
+.HMainFlex img:hover{
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.gallery:hover{
+    opacity: 0.94;
+    transform: scale(0.92);
+}
